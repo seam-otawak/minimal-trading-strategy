@@ -1,0 +1,23 @@
+{
+  "exchange": {
+    "name": "binance",
+    "api_key": "YOUR_API_KEY_HERE",
+    "api_secret": "YOUR_API_SECRET_HERE"
+  },
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "SOL/USDT",
+    "AVAX/USDT",
+    "LINK/USDT"
+  ],
+  "capital": 10000,
+  "allocation": "equal",
+  "max_pairs": 5,
+  "dynamic_selection": true,
+  "live_trading": false,
+  "rebalancing": {
+    "enabled": false,
+    "frequency": "monthly"
+  }
+} 
